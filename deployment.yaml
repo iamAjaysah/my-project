@@ -20,5 +20,6 @@ spec:
       containers:
       - name: website
         image: website:v1
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
